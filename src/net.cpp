@@ -15,10 +15,10 @@
 #endif
 
 #ifdef USE_UPNP
-#include <miniupnpc/miniwget.h>
-#include <miniupnpc/miniupnpc.h>
-#include <miniupnpc/upnpcommands.h>
-#include <miniupnpc/upnperrors.h>
+#include <C:/miniupnpc/miniupnpc/miniwget.h>
+#include <C:/miniupnpc/miniupnpc/miniupnpc.h>
+#include <C:/miniupnpc/miniupnpc/upnpcommands.h>
+#include <C:/miniupnpc/miniupnpc/upnperrors.h>
 #endif
 
 // Dump addresses to peers.dat every 15 minutes (900s)
@@ -484,15 +484,6 @@ CNode* ConnectNode(CAddress addrConnect, const char *pszDest)
         /// debug print
         printf("connected %s\n", pszDest ? pszDest : addrConnect.ToString().c_str());
 
-        // Set to non-blocking
-#ifdef WIN32
-        u_long nOne = 1;
-        if (ioctlsocket(hSocket, FIONBIO, &nOne) == SOCKET_ERROR)
-            printf("ConnectSocket() : ioctlsocket non-blocking setting failed, error %d\n", WSAGetLastError());
-#else
-        if (fcntl(hSocket, F_SETFL, O_NONBLOCK) == SOCKET_ERROR)
-            printf("ConnectSocket() : fcntl non-blocking setting failed, error %d\n", errno);
-#endif
 
         // Add node
         CNode* pnode = new CNode(hSocket, addrConnect, pszDest ? pszDest : "", false);
@@ -1192,8 +1183,8 @@ void MapPort(bool)
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strMainNetDNSSeed[][2] = {
-    {"TTcointools.com", "165.227.34.143"},
-    {"dnsseed.bluematt.me", "172.31.13.238"},
+    {"TTcointools.com", "172.31.32.205"},
+    {"dnsseed.bluematt.me", "172.31.38.5"},
     {NULL, NULL}
 };
 
