@@ -2237,8 +2237,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 9333 or testnet: 19333)</source>
-        <translation>Kuuntele yhteyksiä portista &lt;port&gt; (oletus: 9333 tai testnet: 19333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 5050 or testnet: 15050)</source>
+        <translation>Kuuntele yhteyksiä portista &lt;port&gt; (oletus: 5050 tai testnet: 15050)</translation>
     </message>
     <message>
         <location line="+5"/>
