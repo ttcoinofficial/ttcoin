@@ -3,8 +3,8 @@ TTcoin integration/staging tree
 
 http://www.TTcoin.org
 
-Copyright (c) 2009-2014 Bitcoin Developers
-Copyright (c) 2011-2014 TTcoin Developers
+Copyright (c) 2009-2018 Bitcoin Developers
+Copyright (c) 2017-2018 TTcoin Developers
 
 What is TTcoin?
 ----------------
