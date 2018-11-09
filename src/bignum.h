@@ -7,7 +7,7 @@
 
 #include <stdexcept>
 #include <vector>
-#include <C:\openssl\crypto\bn\bn.h>
+#include <crypto\bn\bn.h>
 
 #include "util.h" // for uint64
 
