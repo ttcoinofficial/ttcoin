@@ -7,8 +7,7 @@
 
 #include <stdexcept>
 #include <vector>
-#include <crypto\bn\bn.h>
-
+#include <crypto/bn/bn.h>
 #include "util.h" // for uint64
 
 /** Errors thrown by the bignum class */
