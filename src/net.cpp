@@ -15,10 +15,10 @@
 #endif
 
 #ifdef USE_UPNP
-#include <C:/miniupnpc/miniupnpc/miniwget.h>
-#include <C:/miniupnpc/miniupnpc/miniupnpc.h>
-#include <C:/miniupnpc/miniupnpc/upnpcommands.h>
-#include <C:/miniupnpc/miniupnpc/upnperrors.h>
+#include <miniupnpc/miniupnpc/miniwget.h>
+#include <miniupnpc/miniupnpc/miniupnpc.h>
+#include <miniupnpc/miniupnpc/upnpcommands.h>
+#include <miniupnpc/miniupnpc/upnperrors.h>
 #endif
 
 // Dump addresses to peers.dat every 15 minutes (900s)
