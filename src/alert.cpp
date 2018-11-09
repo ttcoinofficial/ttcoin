@@ -3,7 +3,7 @@
 //
 
 #include <algorithm>
-#include <C:/boost_1_55_0/boost/algorithm/string/classification.hpp>
+#include <boost/algorithm/string/classification.hpp>
 #include <boost/algorithm/string/replace.hpp>
 #include <boost/foreach.hpp>
 #include <map>
