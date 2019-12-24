@@ -1,7 +1,7 @@
 TTcoin integration/staging tree
 ================================
 
-www.myttcoin.com
+blog.myttcoin.com
 
 Copyright (c) 2009-2018 Bitcoin Developers
 Copyright (c) 2017-2018 TTcoin Developers
